@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculator</title>
+  <link rel="icon" href="image/Illustration-Graphic-of-Calculator-Icon-Graphics-28123187-1.jpg">
+  <link rel="stylesheet" href="clr.css">
+  
+</head>
+<body>
+
+<div class="calc-shell">
+  <div class="display" id="display">
+    <div class="history" id="history">&nbsp;</div>
+    <div class="current" id="current">0</div>
+  </div>
+
+  <div class="del-row">
+    <button class="btn-del" id="backspace" title="Backspace (⌫)">⌫ del</button>
+  </div>
+
+  <div class="grid">
+    <!-- Row 1 -->
+    <button class="btn-util" data-action="clear">AC</button>
+    <button class="btn-util" data-action="sign">+/−</button>
+    <button class="btn-util" data-action="percent">%</button>
+    <button class="btn-op"   data-action="op" data-op="÷">÷</button>
+
+    <!-- Row 2 -->
+    <button class="btn-num" data-action="digit" data-digit="7">7</button>
+    <button class="btn-num" data-action="digit" data-digit="8">8</button>
+    <button class="btn-num" data-action="digit" data-digit="9">9</button>
+    <button class="btn-op"  data-action="op"    data-op="×">×</button>
+
+    <!-- Row 3 -->
+    <button class="btn-num" data-action="digit" data-digit="4">4</button>
+    <button class="btn-num" data-action="digit" data-digit="5">5</button>
+    <button class="btn-num" data-action="digit" data-digit="6">6</button>
+    <button class="btn-op"  data-action="op"    data-op="−">−</button>
+
+    <!-- Row 4 -->
+    <button class="btn-num" data-action="digit" data-digit="1">1</button>
+    <button class="btn-num" data-action="digit" data-digit="2">2</button>
+    <button class="btn-num" data-action="digit" data-digit="3">3</button>
+    <button class="btn-op"  data-action="op"    data-op="+">+</button>
+
+    <!-- Row 5 -->
+    <button class="btn-num span2" data-action="digit" data-digit="0">
+      <div class="span2-inner">0</div>
+    </button>
+    <button class="btn-num" data-action="decimal">.</button>
+    <button class="btn-eq"  data-action="equals">=</button>
+  </div>
+
+  <p class="kbd-hint">Keyboard supported &nbsp;·&nbsp; <kbd>Esc</kbd> to clear</p>
+</div>
+
+<script src="scrpit.js"></script>
+</body>
+</html>
