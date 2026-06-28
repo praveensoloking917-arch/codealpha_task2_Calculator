@@ -33,19 +33,19 @@ Calculator/
 
 🔥 Future Improvements
 
-Scientific calculator functions
-Dark/Light mode toggle
-Calculation history
-Theme customization
+Scientific calculator functions ,
+Dark/Light mode toggle,
+Calculation history,
+Theme customizatio.,
 📚 Learning Outcomes
 
 Through this project, I learned:
 
-DOM manipulation in JavaScript
-Event handling
-CSS styling and responsiveness
-Keyboard event listeners
-Building interactive web applications
+DOM manipulation in JavaScript,
+Event handling,
+CSS styling and responsiveness,
+Keyboard event listeners,
+Building interactive web applications.,
 
 👨‍💻 Author
 
