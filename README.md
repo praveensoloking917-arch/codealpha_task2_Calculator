@@ -26,12 +26,13 @@ A basic calculator built using **HTML, CSS, and JavaScript**. This project perfo
 
 ## 📂 Project Structure
 Calculator/
-│── index.html
-│── style.css
-│── script.js
-│── README.md
+->index.html
+-> style.css
+-> script.js
+-> README.md
 
 🔥 Future Improvements
+
 Scientific calculator functions
 Dark/Light mode toggle
 Calculation history
@@ -45,6 +46,7 @@ Event handling
 CSS styling and responsiveness
 Keyboard event listeners
 Building interactive web applications
+
 👨‍💻 Author
 
 Praveen Kumar
